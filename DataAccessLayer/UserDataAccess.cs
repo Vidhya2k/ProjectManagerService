@@ -47,7 +47,10 @@ namespace DataAccessLayer
         {
             if (disposing)
             {
-                _userContext?.Dispose();
+                if (_userContext != null)
+                {
+                    _userContext.Dispose();
+                }
             }
         }
     }

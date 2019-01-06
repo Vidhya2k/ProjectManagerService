@@ -7,7 +7,7 @@ namespace DataAccessLayer
 {
     public class ProjectManagerDataAccess : IProjectManagerDataAccess
     {
-        private readonly ProjectManagerEntities _projectContext = new ProjectManagerEntities();
+        private readonly ProjectManagementEntities _projectContext = new ProjectManagementEntities();
 
         public ProjectManagerDataAccess()
         {

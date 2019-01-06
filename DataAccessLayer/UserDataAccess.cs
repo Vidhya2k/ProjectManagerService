@@ -7,7 +7,7 @@ namespace DataAccessLayer
 {
     public class UserDataAccess : IUserDataAccess
     {
-        private readonly ProjectManagerEntities _userContext = new ProjectManagerEntities();
+        private readonly ProjectManagementEntities _userContext = new ProjectManagementEntities();
 
         public IQueryable<IUser> GetAllUsers()
         {

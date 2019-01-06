@@ -94,6 +94,7 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Project.sql" />
     <Content Include="ProjectManagerModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ProjectManagerModel.edmx</DependentUpon>
@@ -104,6 +105,8 @@
       <DependentUpon>ProjectManagerModel.edmx</DependentUpon>
       <LastGenOutput>ProjectManagerModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Task.sql" />
+    <Content Include="Users.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

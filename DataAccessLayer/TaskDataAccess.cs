@@ -7,7 +7,7 @@ namespace DataAccessLayer
 {
     public class TaskDataAccess : IDisposable, ITaskDataAccess
     {
-        private readonly ProjectManagerEntities _taskContext = new ProjectManagerEntities();
+        private readonly ProjectManagementEntities _taskContext = new ProjectManagementEntities();
 
         public IQueryable<ITask> GetAllTasks()
         {
